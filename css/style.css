@@ -1,0 +1,102 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+}
+.Without_menu{
+    display: flex;
+}
+.Third_section{
+    display: flex;
+    flex-direction: column;
+}
+.Forth_section{
+    display: flex;
+}
+
+.Fifth_section{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.Menu{
+    background-color: lightskyblue;
+    display: flex;
+}
+
+.Achievements{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-right: auto;
+    background-color: lightgreen;
+}
+
+.Portrait{
+    margin-right: auto;
+    flex-grow: 2;
+    position:relative;
+    display: grid;
+    place-items: center;
+}
+
+.Biography_section{
+    display: flex;
+    background-color: lightskyblue;
+}
+
+.Years_section{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-grow: 1;
+    background-color: lightgreen;
+}
+
+.Claim_section{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-grow: 1;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo1{
+    color: rgb(201, 11, 11);
+    font-weight: 800;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5%;
+    text-shadow: 3px 5px 6px rgb(101, 1, 1);
+}
+
+.logo2{
+    color: rgb(2, 110, 4);
+    font-weight: 500;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 5px 6px rgb(101, 1, 1);
+}
+
+.PagesName{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.Pages{
+   position: absolut;
+}
+
+.b{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
