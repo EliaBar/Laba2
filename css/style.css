@@ -2,16 +2,19 @@
     display: flex;
     flex-direction: column;
 }
+
 .Without_menu{
     display: flex;
+   flex-grow: 8;
 }
 .Third_section{
     display: flex;
     flex-direction: column;
-    flex-grow: 5;
+    flex-grow: 2;
 }
 .Forth_section{
     display: flex;
+    flex-grow: 8;
 }
 
 .Fifth_section{
@@ -23,15 +26,15 @@
 .Menu{
     background-color: lightskyblue;
     display: flex;
+    flex-grow: 1;
 }
 
 .Achievements{
     display: flex;
-    flex-grow: 1;
     justify-content: center; 
     align-items: center;
-    margin-right: auto;
     background-color: lightgreen;
+    max-width: 40%;
 }
 
 .Portrait{
@@ -45,14 +48,17 @@
 .Biography_section{
     display: flex;
     background-color: lightskyblue;
+    flex-grow: 2;
+    object-fit: contain;
+    max-width: 100%;
 }
 
 .Years_section{
     display: flex;
     justify-content: center; 
     align-items: center;
-    flex-grow: 1;
     background-color: lightgreen;
+    flex-grow: 1;
 }
 
 .Claim_section{
@@ -94,11 +100,22 @@
     margin-left: auto;
 }
 
-.Pages{
-   position: absolut;
-}
-
 .b{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.Without_menu, .Menu {
+    display: flex;
+    object-fit: contain;
+    flex-grow: 1; 
+}
+
+@media (max-width: 495px) {
+    .Without_menu, .Menu {
+        flex-direction: column; 
+    }
+    .Achievements{
+        max-width: 100%;
+    }
 }
