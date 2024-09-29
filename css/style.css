@@ -8,6 +8,7 @@
 .Third_section{
     display: flex;
     flex-direction: column;
+    flex-grow: 5;
 }
 .Forth_section{
     display: flex;
@@ -26,6 +27,7 @@
 
 .Achievements{
     display: flex;
+    flex-grow: 1;
     justify-content: center; 
     align-items: center;
     margin-right: auto;
