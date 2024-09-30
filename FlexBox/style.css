@@ -35,7 +35,8 @@
     justify-content: center; 
     align-items: center;
     background-color: lightgreen;
-    max-width: 40%;
+    width: 40%;
+    flex-grow: 1;
 }
 
 .Portrait{
@@ -112,11 +113,3 @@
     flex-grow: 1; 
 }
 
-@media (max-width: 495px) {
-    .Without_menu, .Menu {
-        flex-direction: column; 
-    }
-    .Achievements{
-        max-width: 100%;
-    }
-}
