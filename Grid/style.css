@@ -5,7 +5,7 @@
     'Achievements Portrait Portrait Years'
     'Achievements Portrait Portrait Claim'
     'Achievements Biography Biography Biography'; 
-    height: 100vh;
+    height: 98vh;
 }
 
 .Menu{
@@ -16,7 +16,7 @@
 }
 
 .PagesName{
-  justify-content: end;
+  grid-column-end: 4;
 }
 
 .Achievements{

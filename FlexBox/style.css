@@ -6,28 +6,27 @@
 
 .Without_menu{
     display: flex;
-   flex-grow: 8;
 }
 .Third_section{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;;
     flex-grow: 2;
 }
 .Forth_section{
     display: flex;
-    flex-grow: 8;
+    flex-grow: 3;
 }
 
 .Fifth_section{
     display: flex;
     flex-direction: column;
     flex-grow: 2;
+    max-width: 20%;
 }
 
 .Menu{
     background-color: lightskyblue;
     display: flex;
-    flex-grow: 1;
 }
 
 .Achievements{
